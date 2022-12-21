@@ -1,0 +1,296 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css"
+    />
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Poppins&display=swap"
+      rel="stylesheet"
+    />
+    <link rel="stylesheet" href="https://www.w3schools.com/w3css/4/w3.css" />
+    <link rel="stylesheet" href="style.css" />
+    <title>Document</title>
+  </head>
+  <body>
+    <header class="header">
+      <nav class="nav">
+        <a class="nav-first-link"><i class="fa fa-home"></i>Logo</a>
+        <a href="">Team</a>
+        <a href="">Work</a>
+        <a href="">Price</a>
+        <a href="">Contcat</a>
+        <div class="drop-down">
+          <a>Dropdown <i class="fa fa-caret-down"></i></a>
+          <div class="drop-down--items">
+            <a href="#">Link</a>
+            <a href="#">Link</a>
+            <a href="#">Link</a>
+          </div>
+        </div>
+      </nav>
+      <a class="search-icon"><i class="fa fa-search"></i></a>
+    </header>
+
+    <section class="img-section">
+      <div class="w3-container">
+        <button
+          onclick="document.getElementById('id01').style.display='block'"
+          class="w3-button w3-black modal-button"
+        >
+          LEARN W3.CSS
+        </button>
+
+        <div id="id01" class="w3-modal">
+          <div class="w3-modal-content">
+            <div class="w3-container">
+              <span
+                onclick="document.getElementById('id01').style.display='none'"
+                class="w3-button w3-display-topright"
+                >&times;</span
+              >
+              <p>Some text. Some text. Some text.</p>
+              <p>Some text. Some text. Some text.</p>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <section class="second-section">
+      <div class="second-section--title">
+        <p class="bold-700 font-24">OUR TEAM</p>
+        <p class="font-20">Meet the team - our office rats</p>
+      </div>
+      <div class="avatar-container">
+        <div>
+          <img src="images/avatar.jpg" alt="avatar" />
+          <span class="font-20">Johnnny Walker</span>
+          <span class="font-20">Web Designer</span>
+        </div>
+        <div>
+          <img src="images/avatar.jpg" alt="avatar" />
+          <span class="font-20">Johnnny Walker</span>
+          <span class="font-20">Web Designer</span>
+        </div>
+        <div>
+          <img src="images/avatar.jpg" alt="avatar" />
+          <span class="font-20">Johnnny Walker</span>
+          <span class="font-20">Web Designer</span>
+        </div>
+        <div>
+          <img src="images/avatar.jpg" alt="avatar" />
+          <span class="font-20">Johnnny Walker</span>
+          <span class="font-20">Web Designer</span>
+        </div>
+      </div>
+    </section>
+    <section class="third-section col-m-12">
+      <div class="third-section--text col-m-3">
+        <strong class="font-24">Our Work</strong>
+        <p class="font-20">
+          Lorem ipsum dolor sit amet consectetur adipisicing elit. Cum, ipsam
+          rem facere nemo amet tenetur libero eaque maxime, necessitatibus sit
+          nesciunt distinctio quam atque doloribus ratione odit enim quas
+          ducimus.
+        </p>
+      </div>
+      <div class="col-m-3 third-section--img back-color-white">
+        <div class="img-container"></div>
+
+        <!-- <img src="./images/lights.jpg" alt="lights"> -->
+        <div class="d-flex pad-sm-md font-20">
+          <span>Customer 1</span>
+          <span>Trade</span>
+          <span>Blablabla</span>
+          <span>Blablabla</span>
+          <span>Blablabla</span>
+        </div>
+      </div>
+
+      <div class="col-m-3 third-section--img back-color-white">
+        <div class="img-container"></div>
+
+        <!-- <img src="./images/lights.jpg" alt="lights"> -->
+        <div class="d-flex pad-sm-md font-20">
+          <span>Customer 1</span>
+          <span>Trade</span>
+          <span>Blablabla</span>
+          <span>Blablabla</span>
+          <span>Blablabla</span>
+        </div>
+      </div>
+      <div class="col-m-3 third-section--img back-color-white">
+        <div class="img-container"></div>
+
+        <!-- <img src="./images/mountains.jpg" alt="mountains"> -->
+        <div class="d-flex pad-sm-md font-20">
+          <span>Customer 1</span>
+          <span>Trade</span>
+          <span>Blablabla</span>
+          <span>Blablabla</span>
+          <span>Blablabla</span>
+        </div>
+      </div>
+    </section>
+    <section class="forth-section">
+      <div class="d-flex--column">
+        <strong>Pricing</strong>
+        <span>Choose a pricing plan that fits your needs.</span>
+      </div>
+      <div class="d-flex--row">
+        <ul
+          class="pad-md text-align--center forth-section--boxes d-flex--column col-m-4"
+        >
+          <li
+            class="forth-section--box-title b-color--black pad-sm-md col-m-12"
+          >
+            Basic
+          </li>
+          <li class="forth-section--box col-m-12">
+            <strong>10GB</strong><span> Storage</span>
+          </li>
+          <li class="forth-section--box col-m-12">
+            <strong>10</strong><span> Emails</span>
+          </li>
+
+          <li class="forth-section--box col-m-12">
+            <strong>10</strong><span> Domains</span>
+          </li>
+
+          <li class="forth-section--box col-m-12">
+            <strong>Endless</strong><span> Support</span>
+          </li>
+
+          <li class="d-flex--column forth-section--box col-m-12">
+            <strong>$ 10</strong>
+            <span class="color-gray">per month</span>
+          </li>
+
+          <li class="back-color--lightgray">
+            <button
+              class="button-signup d-flex--row forth-section--box col-m-12"
+            >
+              <i class="fa fa-check icon-check"></i>Sign Up
+            </button>
+          </li>
+        </ul>
+        <ul
+          class="pad-md text-align--center forth-section--box d-flex--column col-m-4"
+        >
+          <li
+            class="forth-section--box-title b-color--gray pad-sm-md col-m-12"
+          >
+            Basic
+          </li>
+          <li class="forth-section--box col-m-12">
+            <strong>10GB</strong><span> Storage</span>
+          </li>
+          <li class="forth-section--box col-m-12">
+            <strong>10</strong><span> Emails</span>
+          </li>
+
+          <li class="forth-section--box col-m-12">
+            <strong>10</strong><span> Domains</span>
+          </li>
+
+          <li class="forth-section--box col-m-12">
+            <strong>Endless</strong><span> Support</span>
+          </li>
+
+          <li class="d-flex--column forth-section--box col-m-12">
+            <strong>$ 10</strong>
+            <span class="color-gray">per month</span>
+          </li>
+
+          <li class="back-color--lightgray">
+            <button
+              class="button-signup d-flex--row forth-section--box col-m-12"
+            >
+              <i class="fa fa-check icon-check"></i>Sign Up
+            </button>
+          </li>
+        </ul>
+        <ul
+          class="pad-md text-align--center forth-section--box d-flex--column col-m-4"
+        >
+          <li
+            class="forth-section--box-title b-color--black pad-sm-md col-m-12"
+          >
+            Basic
+          </li>
+          <li class="forth-section--box col-m-12">
+            <strong>10GB</strong><span> Storage</span>
+          </li>
+          <li class="forth-section--box col-m-12">
+            <strong>10</strong><span> Emails</span>
+          </li>
+
+          <li class="forth-section--box col-m-12">
+            <strong>10</strong><span> Domains</span>
+          </li>
+
+          <li class="forth-section--box col-m-12">
+            <strong>Endless</strong><span> Support</span>
+          </li>
+
+          <li class="d-flex--column forth-section--box col-m-12">
+            <strong>$ 10</strong>
+            <span class="color-gray">per month</span>
+          </li>
+
+          <li class="back-color--lightgray">
+            <button
+              class="button-signup d-flex--row forth-section--box col-m-12"
+            >
+              <i class="fa fa-check icon-check"></i>Sign Up
+            </button>
+          </li>
+        </ul>
+      </div>
+    </section>
+    <section class="fifth-section">
+      <div class="fifth-section--left">
+        <div class="contact-us">
+          <strong>Contact Us</strong>
+        </div>
+        <strong>Address</strong>
+        <span>Swing by for a cup of coffee, or whatever.</span>
+        <div><i class="fa fa-map-marker color-green pad-right-2px"></i><span>Chicago, US</span></div>
+        <div><i class="fa fa-phone color-green pad-right-2px"></i><span>+00 1515151515</span></div>
+        <div><i class="fa fa-envelope color-green pad-right-2px"></i><span>test@test.com</span></div>
+      </div>
+      
+      <div class="fifth-section--right">
+        <table class="form">
+          <tr class="pad-sm-md"><td>Name</td><td><input type="text"></td></tr>
+          <tr class="pad-sm-md" ><td>Email</td><td><input type="text"></td></tr>
+          <tr><td>Message</td><td><input type="text"></td></tr>
+          <tr class="form-button--container"><td><input type="checkbox"> <label> I Like it! </label></td><td><button class="form-button">Send</button></td></tr> 
+          
+          </div>
+        </table>
+      </div>
+    </section>
+    <section class="sixth-section">
+      <div class="sixth-section--map"></div>
+    </section>
+    <section class="seventh-section">
+      <strong>Follow Us</strong>
+      <div class="seventh-section--boxes">
+        <div class="seventh-section--box"><i class="fa fa-facebook"></i></div>
+        <div class="seventh-section--box"><i class="fa fa-twitter"></i></div>
+        <div class="seventh-section--box"><i class="fa fa-google-plus"></i></div>
+        <div class="seventh-section--box"><i class="fa fa-instagram"></i></div>
+        <div class="seventh-section--box"><i class="fa fa-linkedin"></i></div>
+      </div>
+      <div><span>Powered by</span><a style="padding:5px ;" href="">W3.css</a></div>
+    </section>
+  </body>
+</html>
